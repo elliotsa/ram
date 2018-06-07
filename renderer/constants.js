@@ -47,9 +47,9 @@ const appTypes = {
       run: 'run start'
     }
   },
-  nuxt: {
+  vue: {
     name: 'Vue App',
-    install: 'vue create -d',
+    install: '@vue/cli create -d',
     defaults: {
       type: 'create-vue-app',
       port: 8080,
