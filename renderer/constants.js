@@ -64,7 +64,16 @@ const appTypes = {
       port: 8080,
       run: 'run start'
     }
-  }
+  },
+  inferno: {
+    name: 'Inferno App',
+    install: 'create-inferno-app',
+    defaults: {
+      type: 'create-inferno-app',
+      port: 3000,
+      run: 'run start',
+    },
+  },
 }
 
 appTypes.options = Object.keys(appTypes).map(key => ({
